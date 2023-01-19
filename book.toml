@@ -1,0 +1,6 @@
+[book]
+authors = ["StunxFS"]
+language = "en"
+multilingual = false
+src = "src"
+title = "The Rivet programming language - Documentation"
