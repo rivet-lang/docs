@@ -46,7 +46,7 @@ func x() {
 }
 
 func y() {
-	let my_var = 1; // statement
+	my_var := 1; // statement
 }
 ```
 

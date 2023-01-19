@@ -28,11 +28,13 @@ import "module" { import_list, ... };
 
 const Foo: int32 = 0;
 
-let Foo: int32 = 0;
+var Foo: int32 = 0;
 
-type Foo = int32;
+alias Foo = Baz;
 
 trait Foo { /* ... */ }
+
+class Foo { /* ... */ }
 
 struct Foo { /* ... */ }
 
