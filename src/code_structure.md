@@ -24,7 +24,7 @@ func main() {
 
 On the top level only declarations are allowed.
 ```swift
-import "module" { import_list, ... };
+import { import_list, ... } from "module";
 
 const Foo: int32 = 0;
 
@@ -32,13 +32,11 @@ var Foo: int32 = 0;
 
 alias Foo = Baz;
 
+enum Foo { /* ... */ }
+
 trait Foo { /* ... */ }
 
-class Foo { /* ... */ }
-
 struct Foo { /* ... */ }
-
-enum Foo { /* ... */ }
 
 extend Foo { /* ... */ }
 

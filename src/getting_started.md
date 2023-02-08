@@ -21,17 +21,17 @@ Rivet uses the C programming language as its main backend.
     is required to generate executables. Over time the compiler will add support for
     generating binaries directly without the need for a C compiler.
 
-The compiler has been tested on **linux** and **windows**.
+The compiler has been tested on **linux**.
 
 Just execute ``python3 rivetc some_file.ri``.
 
-You can see all available compiler options by using the ``-h``\ /\ ``--help`` flag.
+You can see all available compiler options by using the ``-h``/``--help`` flag.
 
 ``python3 rivetc -h``
 
 ## Hello World!
 
-Let's start with the typical ``Hello World!``\ :
+Let's start with the typical ``Hello World!``:
 
 We create a file called ``hello_world.ri`` with the following content:
 
