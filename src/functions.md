@@ -14,7 +14,7 @@ func <name>(<args>) [return_type] {
 For example:
 
 ```swift
-func add(a: i32, b: i32) i32 {
+func add(a: int32, b: int32) int32 {
 	return a + b;
 }
 ```
@@ -24,13 +24,13 @@ func add(a: i32, b: i32) i32 {
 Functions can have 0 arguments.
 
 ```swift
-// `f1` returns a simple numeric value of type `i32`.
-func f1() i32 {
+// `f1` returns a simple numeric value of type `int32`.
+func f1() int32 {
 	return 0;
 }
 
-// `f2` takes an argument of type `i32` and prints it to the console.
-func f2(a: i32) {
+// `f2` takes an argument of type `int32` and prints it to the console.
+func f2(a: int32) {
 	println("a: {}", a);
 }
 
@@ -53,18 +53,18 @@ func y() {
 ## Arguments
 
 The arguments are declared as follows: `<name>: <type> [= default_value]`,
-for example: `arg1: i32`, `arg2: bool = false`.
+for example: `arg1: int32`, `arg2: bool = false`.
 
 The arguments are immutable.
 
 They can also have default values, this bypasses the need to pass the
-argument each time the function is called: `arg1: i32 = 5`.
+argument each time the function is called: `arg1: int32 = 5`.
 
 So, if we have a function called `f5` with a default value argument,
 we can call it in 3 ways:
 
 ```swift
-func f5(arg1: i32 = 5) {
+func f5(arg1: int32 = 5) {
 	println("arg1: {}", arg1);
 }
 
