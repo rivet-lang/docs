@@ -6,7 +6,7 @@ multiple statements.
 The way to declare functions in Rivet is as follows:
 
 ```swift
-func <name>(<args>) [return_type] {
+func <name>(<args>) [-> return_type] {
 	...
 }
 ```
@@ -14,7 +14,7 @@ func <name>(<args>) [return_type] {
 For example:
 
 ```swift
-func add(a: int32, b: int32) int32 {
+func add(a: int32, b: int32) -> int32 {
 	return a + b;
 }
 ```
@@ -25,7 +25,7 @@ Functions can have 0 arguments.
 
 ```swift
 // `f1` returns a simple numeric value of type `int32`.
-func f1() int32 {
+func f1() -> int32 {
 	return 0;
 }
 
