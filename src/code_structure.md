@@ -24,11 +24,11 @@ func main() {
 
 On the top level only declarations are allowed.
 ```swift
-import { import_list, ... } from "module";
+import { import_list, ... } from module;
 
-const Foo: int32 = 0;
+const FOO: int32 = 0;
 
-var Foo: int32 = 0;
+static foo: int32 = 0;
 
 alias Foo = Baz;
 
