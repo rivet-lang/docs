@@ -36,7 +36,7 @@ Let's start with the typical ``Hello World!``:
 We create a file called ``hello_world.ri`` with the following content:
 
 ```swift
-import "std/console";
+import std/console;
 
 func main() {
     console.println("Hello World!");
