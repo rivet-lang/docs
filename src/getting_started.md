@@ -39,7 +39,7 @@ We create a file called ``hello_world.ri`` with the following content:
 import std/console;
 
 func main() {
-    console.println("Hello World!");
+    console.writeln("Hello World!");
 }
 ```
 
@@ -65,5 +65,5 @@ Excellent! You have compiled your first program in Rivet!
 
 ## Editor/IDE support
 
-* [LiteXL](https://github.com/lite-xl/lite-xl-plugins/blob/master/plugins/language_rivet.lua)
+* [LiteXL and Pragtical](https://github.com/lite-xl/lite-xl-plugins/blob/master/plugins/language_rivet.lua)
   (Syntax-highlighting only).
