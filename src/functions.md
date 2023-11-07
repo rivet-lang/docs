@@ -52,8 +52,8 @@ func y() {
 
 ## Arguments
 
-The arguments are declared as follows: `<name>: <type> [= default_value]`,
-for example: `arg1: int32`, `arg2: bool = false`.
+The arguments are declared as follows: `<name>: <type> [:= default_value]`,
+for example: `arg1: int32`, `arg2: bool := false`.
 
 The arguments are immutable.
 
@@ -64,7 +64,7 @@ So, if we have a function called `f5` with a default value argument,
 we can call it in 3 ways:
 
 ```swift
-func f5(arg1: int32 = 5) {
+func f5(arg1: int32 := 5) {
 	println("arg1: {}", arg1);
 }
 
