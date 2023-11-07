@@ -26,11 +26,11 @@ On the top level only declarations are allowed.
 ```swift
 import { import_list, ... } from module;
 
-const FOO: int32 = 0;
+const FOO: int32 := 0;
 
-static foo: int32 = 0;
+static foo: int32 := 0;
 
-alias Foo = Baz;
+alias Foo := Baz;
 
 enum Foo { /* ... */ }
 
@@ -42,5 +42,5 @@ extend Foo { /* ... */ }
 
 func foo() { /* ... */ }
 
-test "Foo" { /* ... */ }
+test "foo" { /* ... */ }
 ```
